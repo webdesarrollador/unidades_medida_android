@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="altura_foto">640dp</dimen>
+    <dimen name="anchura_foto">470dp</dimen>
+    <dimen name="texto_boton">40sp</dimen>
+</resources>

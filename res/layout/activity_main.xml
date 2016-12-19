@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.webdesarrollador.unidadesejemplo.MainActivity">
+
+    <Button
+        android:text="@string/comida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="71dp"
+        android:id="@+id/button2"
+        android:textSize="@dimen/texto_boton"
+        android:layout_alignTop="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button" />
+
+    <ImageView
+        android:layout_width="@dimen/anchura_foto"
+        android:layout_height="@dimen/altura_foto"
+        app:srcCompat="@drawable/pajaro"
+        android:layout_marginTop="60dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="@string/habitat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:textSize="@dimen/texto_boton"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

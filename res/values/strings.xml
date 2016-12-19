@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">UnidadesEjemplo</string>
+    <string name="habitat">Habitat</string>
+    <string name="comida">Comida</string>
+</resources>
